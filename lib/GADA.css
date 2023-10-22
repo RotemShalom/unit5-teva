@@ -1,0 +1,490 @@
+/***************************************************************************/
+/***************************************************************************/
+/*כללי*/
+/***************************************************************************/
+/***************************************************************************/
+
+/*כפתורים*/
+/*כפתור המשך*/
+button.continue-btn{
+    border-radius: 42px;
+    font-family: var(--font-family-body) !important;
+}
+
+/*כפתור בדיקה*/
+button.quiz-card__button{
+    font-family: var(--font-family-body) !important;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/*יישור לימין*/
+.cover__header, p, .cover__details-description-outline, button, span{
+    direction: rtl !important;
+}
+
+/*כפתור צף מעבר לנושא הקודם*/
+span.lesson-nav__link-text{
+    font-family: var(--font-family-body) !important;
+}
+
+.lesson-nav-link__link{
+    direction: rtl;
+}
+
+.overview-list-item__title{
+    font-size: 18px !important;
+}
+
+.block-statement--d .block-statement__quote:before{
+    text-align: center !important;
+    display: none !important;
+}
+
+/***************************************************************************/
+/***************************************************************************/
+/*עמוד שער*/
+/***************************************************************************/
+/***************************************************************************/
+
+/*העלמת המידע מעל תמונת הרקע בעמוד הפתיחה*/
+div.cover__header-content-authors{
+    display: none !important;
+}
+
+.lesson-header__content, .lesson-header__row, .block-image--overlay .block-image__paragraph:before{
+    display: none;
+}
+/*עיצוב כפתור הכניסה*/
+a.cover__header-content-action-link.overview__button-enrolled{
+    /* background-color: #0054A6 !important; */
+    color: #00A03B !important;
+    font-family: var(--font-family-body);
+    font-size: 14px;
+}
+
+div.block-image__container, div.block-image__row{
+    /* text-align: right !important;
+    direction: rtl !important; */
+}
+
+/*עיצוב הכותרת*/
+.cover__header-content-title{
+    /* max-width: 60% !important; */
+    /* color: #0054A6 !important; */
+}
+
+/*עיצוב תפריט*/
+
+/*הגדרת הפונט המתאים לכל חלקי התפריט*/
+h2.overview-list__section-title, .overview-list-item__title{
+    font-family: var(--font-family-body) !important;
+    font-size: 1.5rem;
+}
+
+/*יישור התפריט לימין*/
+.nav-sidebar__outline, .nav-sidebar-header__content, .nav-sidebar__outline-section-item__link, .nav-sidebar__outline-list-item, li, .nav-sidebar__outline-item.nav-sidebar__outline-section, .block-text__row{
+    direction: rtl;
+}
+
+.nav-sidebar-header__progress-text, .nav-sidebar__outline-section-item__link, .nav-sidebar__outline-section-toggle-text{
+    font-family: var(--font-family-body);
+}
+
+h1{
+    font-size: 5rem !important;
+}
+/***************************************************************************/
+/***************************************************************************/
+/*אינטראקציית שאלות*/
+/***************************************************************************/
+/***************************************************************************/
+div.quiz-card__interactive{
+     direction: rtl !important; 
+    
+}
+
+
+/*מסגרת השאלה*/
+.block-knowledge__wrapper.block-card.bg--range-light.block-card--legacy{
+    border:3px solid #0054A6;
+    box-shadow: none;
+    border-radius: 12px;
+}
+
+/* div.quiz-card__interactive{
+    border: none;
+    box-shadow: none;
+} */
+
+/*עיצובי כפתורי הרדיו או הצק בוקס*/
+.quiz-multiple-response-option__indicator{
+    border-radius: 4px;
+    /* border: 2px solid #0054A6 !important; */
+}
+
+.quiz-multiple-choice-option__indicator{
+    /* border: 2px solid #0054A6 !important; */
+}
+
+.quiz-card__feedback--active .quiz-card__feedback-label{
+    font-size: 2rem !important;
+}
+
+/*עיצוב המשוב של השאלה*/
+.quiz-card__feedback-wrap p{
+    color: black;
+}
+ 
+.block-knowledge__retake-container{
+    display: none;
+}
+
+.quiz-card__feedback-icon{
+    border: transparent !important;
+}
+.quiz-card__feedback--frame .quiz-card__feedback-wrap{
+    background-color: white !important;
+}
+
+/*שאלת חד ברירה*/
+.quiz-card__feedback-text p{
+    color: black;
+    font-size: 17px;
+}
+
+.quiz-card__feedback-icon{
+    border-color: #0054A6 !important;
+}
+
+.block-knowledge .quiz-card__submit, .quiz-card__submit .quiz-card__button--disabled{
+    /* border: 1px solid #00A03B; */
+    border-radius: 25px !important;
+    color: white !important;
+}
+
+.quiz-card__button{
+    border-radius: 25px !important;
+}
+
+/***************************************************************************/
+/***************************************************************************/
+/*כרטיסיות*/
+/***************************************************************************/
+/***************************************************************************/
+.flashcard-side__content, .flashcard-side__content--image.flashcard-side__content--large, .flashcard-side.flashcard-side--back.flashcard-side--flipped.flashcard-side--legacy{
+    background-color: white !important;
+    box-shadow: none;
+    border: none;
+}
+
+.flashcard-side.flashcard-side--back.flashcard-side--legacy, .flashcard-side__content.flashcard-side__content--large.flashcard-side__content--image{
+    background-color: white !important;
+    box-shadow: none;
+    border: none;
+}
+
+.flashcard-side--front:not(.flashcard-side--fullimage), .flashcard.flashcard--large, .flashcard-side.flashcard-side--front.flashcard-side--legacy.block-card.bg--range-light.block-card--legacy{
+    background-color: white !important;
+    box-shadow: none;
+    border: none;
+}
+
+/***************************************************************************/
+/***************************************************************************/
+/*מרקים - הוט ספוט*/
+/***************************************************************************/
+/***************************************************************************/
+span.labeled-graphic-marker__pin{
+    border: 4px solid white;
+}
+
+span.labeled-graphic-marker__pin:hover{
+    border: 0px solid white;
+}
+
+
+div.bubble__body.bubble__body--right.bubble__body--top, .bubble__title.brand--head.brand--linkColor, .bubble--active.bubble__title{
+    direction: rtl !important;
+    align-items: right;
+    text-align: right;
+}
+
+.icon.icon-chevron-right, .icon.icon-chevron-left{
+    display: none;
+}
+
+div.bubble__content{
+   direction: rtl !important;
+   text-align: right !important;
+}
+
+.bubble--active .bubble__body {
+    padding: 0.5rem !important;
+}
+/***************************************************************************/
+/***************************************************************************/
+/*שאלת התאמה*/
+/***************************************************************************/
+/***************************************************************************/
+.quiz-match{
+    direction: ltr;
+}
+
+.svg-inline--fa{
+    /* display: none; */
+} 
+
+.quiz-match__item-content{
+    text-align: center;
+}
+
+.quiz-match__item-arrow>rect {
+    fill: #0054A6 !important;
+    fill: var(--matching-unmatched-item-border-color,#0054A6) !important;
+    stroke: #0054A6 !important;
+    stroke: var(--matching-unmatched-item-border-color,#0054A6) !important;
+}
+
+.quiz-match__item-feedback-bubble{
+    background-color: #0054A6 !important;
+}
+
+.quiz-match__item-arrow>polygon, .quiz-match__item-tail>polygon {
+    fill: #0054A6 !important;
+    stroke: #0054A6 !important;
+}
+
+.quiz-match__item-content span{
+    font-size: 18px !important;
+}
+
+.fr-view table, li, ul{
+    direction: rtl;
+}
+
+
+
+
+.quiz-fill__icon.quiz-fill__icon--visible, .quiz-fill__options--visible, .quiz-match{
+    display: none;
+}
+
+.blocks-tabs__header-item{
+    font-size: 1.5rem !important;
+}
+
+
+
+
+span.blocks-tabs__arrow-icon.blocks-tabs__arrow-icon--next{
+    color: white !important;
+    fill: white !important;
+    fill: var(--matching-unmatched-item-border-color,white) !important;
+}
+
+span.blocks-tabs__arrow-icon.blocks-tabs__arrow-icon--next .svg-inline--fa.fa-chevron-right{
+    color: white !important;
+    fill: white !important;
+    fill: var(--matching-unmatched-item-border-color,white) !important;
+} 
+
+.blocks-tabs__arrow.blocks-tabs__arrow--next path{
+    color: white !important;
+    fill: white !important;
+    fill: var(--matching-unmatched-item-border-color,white) !important;
+}
+
+.blocks-tabs__arrow-icon.blocks-tabs__arrow-icon--next > svg.svg-inline--fa.fa-chevron-right > path{
+    color: white !important;
+    fill: white !important;
+    fill: var(--matching-unmatched-item-border-color,white) !important;
+}
+
+.blocks-tabs__arrow .svg-inline--fa.fa-chevron-right{
+    color: white !important;
+    fill: white !important;
+}
+
+.blocks-tabs__arrow--prev .svg-inline--fa.fa-chevron-left{
+    color: white !important;
+    fill: white !important;
+}
+
+
+.blocks-accordion__title{
+    color: #0054A6 !important;
+    direction: rtl !important;
+}
+
+button.blocks-accordion__header{
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+.blocks-accordion__wrapper{
+    direction: rtl !important;
+}
+
+.blocks-accordion__toggler{
+    color: #0054A6 !important;
+}
+
+.block-knowledge--legacy .block-knowledge__wrapper.block-card, .block-knowledge__wrapper.block-card--transparent, .block-knowledge__wrapper.block-card--white{
+    box-shadow: none !important;
+    border: 3px solid #00A03B !important;
+    border-radius: 52px !important;
+}
+
+.icon-Master-05:before{
+    content: "\✓" !important;
+}
+.icon-Master-06:before {
+    content: "\❌" !important;
+}
+
+.classic .nav-sidebar__outline-item__link, .classic .nav-sidebar__outline-section-item__link{
+   font-family: var(--font-family-body) !important;
+}
+
+/* div.quiz-multiple-choice-option.is-complete.is-correct.is-selected{
+     border: 3px solid #00A03B !important; 
+    border-radius: 25px !important;
+    border-color: #00A03B !important;
+}
+
+.quiz-multiple-choice-option.is-complete.is-selected .quiz-multiple-choice-option__border:before {
+    border-radius: 25px;
+    border-color: red;
+}
+
+
+div.quiz-multiple-choice-option.is-complete.is-incorrect{
+    border-radius: 25px;
+    border-color: red;
+}
+
+.quiz-multiple-choice-option-wrap.is-complete.is-incorrect{
+    border: 3px solid #00A03B !important; 
+    border-radius: 25px !important;
+    border-color: #00A03B !important;
+} */
+
+/* .quiz-multiple-choice-option-wrap.quiz-multiple-choice-option-wrap--complete.is-complete.is-incorrect{
+    border: 3px solid #00A03B !important; 
+    border-radius: 25px !important;
+}
+*/
+/* .quiz-multiple-choice-option.is-complete.is-incorrect.is-selected{
+    border: 3px solid #00A03B !important; 
+    border-radius: 25px !important; 
+    width:90%; 
+    right: 0 !important;
+    direction: rtl !important;
+    text-align: right !important;
+}    */
+
+ /* .quiz-multiple-choice-option.is-complete.is-selected.quiz-multiple-choice-option__border:before{
+    border-radius: 25px !important;
+    border-color: red !important;
+     width: 100% !important; 
+}  */
+/* 
+.quiz-multiple-response-option--correct.quiz-multiple-response-option--selected.quiz-multiple-response-option__border:before{
+    border-radius: 25px;
+}
+
+.quiz-multiple-response-option--incorrect.quiz-multiple-response-option--selected.quiz-multiple-response-option__border:before{
+    border-radius: 25px !important ;
+    border-color: red !important;
+}
+
+.quiz-multiple-choice-option.is-complete.is-incorrect.is-selected .quiz-multiple-choice-option__border:before{
+    border-radius: 25px !important ;
+    border-color: red !important;
+    width: 100% !important;
+    text-align: right;
+    direction: rtl !important;
+}
+
+.quiz-multiple-choice-option.is-complete.is-correct.is-selected .quiz-multiple-choice-option__border:before{
+    border-radius: 25px !important ;
+    border-color: #00A03B !important;
+    width: 100% !important;
+    text-align: right;
+    direction: rtl !important;
+} */
+
+
+/* .quiz-multiple-response-option--correct.quiz-multiple-response-option--selected .quiz-multiple-response-option__border:before{
+    border-radius: 25px !important;
+}
+
+.quiz-multiple-response-option--incorrect.quiz-multiple-response-option--selected .quiz-multiple-response-option__border:before{
+    border-radius: 25px !important;
+    border-color: red !important;
+} */
+
+/* div.quiz-multiple-choice-option.is-complete.is-incorrect.is-selected:before{
+    
+    border: 3px solid #00A03B !important;
+    border-radius: 25px !important;
+    width: 100%;
+} */
+
+ /* .quiz-multiple-choice-option-wrap .is-complete.is-incorrect.is-selected::before{
+    border: 3px solid #00A03B !important;
+    border-radius: 25px !important;
+    width: 80%;
+} 
+
+.quiz-multiple-choice-option.is-complete.is-selected .quiz-multiple-choice-option__border:before{
+    border-radius: 25px !important;
+    border-color: red !important;
+}
+
+.block-knowledge--legacy .block-knowledge__wrapper.block-card, .block-knowledge__wrapper.block-card--transparent, .block-knowledge__wrapper.block-card--white{
+    direction: rtl !important;
+} */
+
+.quiz-multiple-choice-option.is-complete.is-selected .quiz-multiple-choice-option__border:before{
+    border-radius: 25px !important;
+    
+}
+
+.quiz-multiple-choice-option.is-complete.is-incorrect.is-selected .quiz-multiple-choice-option__border:before{
+    border-radius: 25px !important;
+    border-color: red !important;
+}
+
+/* .quiz-multiple-response-option-wrap.is-complete.is-selected .quiz-multiple-choice-option__border:before{
+    border-radius: 25px !important;
+    
+}
+
+.quiz-multiple-response-option-wrap.is-complete.is-incorrect.is-selected .quiz-multiple-choice-option__border:before{
+    border-radius: 25px !important;
+    border-color: red !important;
+} */
+
+
+/* quiz-multiple-response-option quiz-multiple-response-option--complete quiz-multiple-response-option--selected quiz-multiple-response-option--incorrect{
+
+} */
+
+.quiz-multiple-response-option--correct.quiz-multiple-response-option--selected .quiz-multiple-response-option__border:before{
+    border-radius: 25px;
+}
+
+.quiz-multiple-response-option--incorrect.quiz-multiple-response-option--selected .quiz-multiple-response-option__border:before{
+    border-radius: 25px;
+    border-color: red !important;
+}
+
+.quiz-multiple-response-option--incorrect.quiz-multiple-response-option--selected .quiz-multiple-response-option__border:before{
+
+}
+
+.quiz-multiple-choice-option__indicator, .quiz-multiple-response-option__indicator{
+    left: 60rem !important;
+}
